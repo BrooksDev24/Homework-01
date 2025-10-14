@@ -3,7 +3,7 @@ services:
   AccountingWeb:
     image: schbros/testauto:latest
     build: .
-    contaianer_name: testauto
+    contaianer_name: AccountingWebContainer
     ports: 
       - "80:80"
 
