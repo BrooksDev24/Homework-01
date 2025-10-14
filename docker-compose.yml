@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   AccountingWeb:
-    image: schbros/AccountingWeb:latest
+    image: schbros/testauto:latest
     build: .
     container_name: accountingwebcontainer
     ports: 
