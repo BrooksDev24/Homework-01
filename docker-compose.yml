@@ -6,7 +6,7 @@ services:
     container_name: accountingwebcontainer
     ports: 
       - "80:80"
-    enviroment:
+    environment:
       - PORT=80
     volumes:
       - ./usr/local/apache2
