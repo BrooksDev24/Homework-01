@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  AccountingWeb:
+    image: schbros/testauto:latest
+    build: .
+    contaianer_name: testauto
+    ports: 
+      - "80:80"
+
+    
